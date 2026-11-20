@@ -1,0 +1,20 @@
+{"branch": "ruler", "frame_event_id": "m0-A", "gate": "front", "gate_seq": 1, "mark_id": "m0", "occurred_at_ns": 39}
+{"branch": "ruler", "frame_event_id": "m0-B", "gate": "rear", "gate_seq": 1, "mark_id": "m0", "occurred_at_ns": 42}
+{"branch": "token", "edge": "leading", "frame_event_id": "L1-A-L", "gate": "front", "occurred_at_ns": 48, "token_id": "L1"}
+{"branch": "token", "edge": "leading", "frame_event_id": "L1-B-L", "gate": "rear", "occurred_at_ns": 51, "token_id": "L1"}
+{"branch": "token", "edge": "trailing", "frame_event_id": "L1-A-T", "gate": "front", "occurred_at_ns": 54, "token_id": "L1"}
+{"branch": "token", "edge": "leading", "frame_event_id": "L2-A-L", "gate": "front", "occurred_at_ns": 54, "token_id": "L2"}
+{"branch": "token", "edge": "trailing", "frame_event_id": "L1-B-T", "gate": "rear", "occurred_at_ns": 57, "token_id": "L1"}
+{"branch": "token", "edge": "leading", "frame_event_id": "L2-B-L", "gate": "rear", "occurred_at_ns": 57, "token_id": "L2"}
+{"branch": "token", "edge": "trailing", "frame_event_id": "L2-A-T", "gate": "front", "occurred_at_ns": 60, "token_id": "L2"}
+{"branch": "ruler", "frame_event_id": "m1-A", "gate": "front", "gate_seq": 2, "mark_id": "m1", "occurred_at_ns": 60}
+{"branch": "token", "edge": "trailing", "frame_event_id": "L2-B-T", "gate": "rear", "occurred_at_ns": 63, "token_id": "L2"}
+{"branch": "token", "edge": "leading", "frame_event_id": "T1-A-L", "gate": "front", "occurred_at_ns": 63, "token_id": "T1"}
+{"branch": "ruler", "frame_event_id": "m1-B", "gate": "rear", "gate_seq": 2, "mark_id": "m1", "occurred_at_ns": 63}
+{"branch": "token", "edge": "leading", "frame_event_id": "T1-B-L", "gate": "rear", "occurred_at_ns": 66, "token_id": "T1"}
+{"branch": "selfcheck", "frame_event_id": "sc-A-1", "gate": "front", "gate_seq": 9, "occurred_at_ns": 66}
+{"branch": "ruler", "frame_event_id": "m2-A", "gate": "front", "gate_seq": 3, "mark_id": "m2", "occurred_at_ns": 68}
+{"branch": "ruler", "frame_event_id": "m2-B", "gate": "rear", "gate_seq": 3, "mark_id": "m2", "occurred_at_ns": 69}
+{"branch": "selfcheck", "frame_event_id": "sc-B-1", "gate": "rear", "gate_seq": 9, "occurred_at_ns": 69}
+{"branch": "token", "edge": "trailing", "frame_event_id": "T1-A-T", "gate": "front", "occurred_at_ns": 71, "token_id": "T1"}
+{"branch": "token", "edge": "trailing", "frame_event_id": "T1-B-T", "gate": "rear", "occurred_at_ns": 72, "token_id": "T1"}

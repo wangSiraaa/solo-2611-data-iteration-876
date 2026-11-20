@@ -1,0 +1,448 @@
+{
+  "onefen_line": {
+    "admissions": [
+      {
+        "face_value": 1,
+        "frame_event_ids": [
+          "L1-A-L",
+          "L1-A-T",
+          "L1-B-L",
+          "L1-B-T"
+        ],
+        "gate": "rear",
+        "leading_ns": 51,
+        "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+        "reason": null,
+        "segments": [
+          {
+            "calibration_mark": "m0",
+            "duration_ns": 6,
+            "end_ns": 57,
+            "speed": "1/3",
+            "start_ns": 51
+          }
+        ],
+        "status": "admitted",
+        "token_id": "L1",
+        "trailing_ns": 57,
+        "width": "2",
+        "width_table_version": "width-v1"
+      },
+      {
+        "face_value": 1,
+        "frame_event_ids": [
+          "L2-A-L",
+          "L2-A-T",
+          "L2-B-L",
+          "L2-B-T"
+        ],
+        "gate": "rear",
+        "leading_ns": 57,
+        "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+        "reason": null,
+        "segments": [
+          {
+            "calibration_mark": "m0",
+            "duration_ns": 6,
+            "end_ns": 63,
+            "speed": "1/3",
+            "start_ns": 57
+          }
+        ],
+        "status": "admitted",
+        "token_id": "L2",
+        "trailing_ns": 63,
+        "width": "2",
+        "width_table_version": "width-v1"
+      },
+      {
+        "face_value": 1,
+        "frame_event_ids": [
+          "T2-A-L",
+          "T2-A-T",
+          "T2-B-L",
+          "T2-B-T"
+        ],
+        "gate": "rear",
+        "leading_ns": 66,
+        "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+        "reason": null,
+        "segments": [
+          {
+            "calibration_mark": "m1",
+            "duration_ns": 6,
+            "end_ns": 72,
+            "speed": "1/3",
+            "start_ns": 66
+          }
+        ],
+        "status": "admitted",
+        "token_id": "T2",
+        "trailing_ns": 72,
+        "width": "2",
+        "width_table_version": "width-v1"
+      }
+    ],
+    "calibrations": [
+      {
+        "front_event_id": "m0-A",
+        "mark_id": "m0",
+        "rear_event_id": "m0-B",
+        "speed": "1/3",
+        "start_ns": 42,
+        "transit_ns": 3,
+        "ttl_end_ns": null
+      },
+      {
+        "front_event_id": "m1-A",
+        "mark_id": "m1",
+        "rear_event_id": "m1-B",
+        "speed": "1/3",
+        "start_ns": 63,
+        "transit_ns": 3,
+        "ttl_end_ns": null
+      }
+    ],
+    "frames_sha256": "e65f845ea435a46fc17bc4c244299ce9e5f21588e8edf25618d2e478bf43180d",
+    "late_frames": [],
+    "mark_conflicts": [],
+    "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+    "rejected_frames": [],
+    "valid_edge": "leading",
+    "valid_gate": "rear"
+  },
+  "products": {
+    "v1": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+    "v2": "81896975e59cb900794a0a03ac5e2a6885f8aa0f3a8bbbd97d29c204afebba17"
+  },
+  "quarantine_line": {
+    "admissions": [
+      {
+        "face_value": null,
+        "frame_event_ids": [
+          "Q1-A-L",
+          "Q1-A-T",
+          "Q1-B-L",
+          "Q1-B-T"
+        ],
+        "gate": "rear",
+        "leading_ns": 24,
+        "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+        "reason": "missing_speed",
+        "segments": [],
+        "status": "quarantined",
+        "token_id": "Q1",
+        "trailing_ns": 30,
+        "width": null,
+        "width_table_version": null
+      },
+      {
+        "face_value": null,
+        "frame_event_ids": [
+          "Q2-A-L",
+          "Q2-A-T",
+          "Q2-B-L",
+          "Q2-B-T"
+        ],
+        "gate": "rear",
+        "leading_ns": 75,
+        "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+        "reason": "mark_conflict",
+        "segments": [
+          {
+            "calibration_mark": "m2",
+            "duration_ns": 6,
+            "end_ns": 81,
+            "speed": "1",
+            "start_ns": 75
+          }
+        ],
+        "status": "quarantined",
+        "token_id": "Q2",
+        "trailing_ns": 81,
+        "width": "6",
+        "width_table_version": null
+      },
+      {
+        "face_value": null,
+        "frame_event_ids": [
+          "Q3-A-L",
+          "Q3-A-T",
+          "Q3-B-L"
+        ],
+        "gate": "rear",
+        "leading_ns": 81,
+        "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+        "reason": "edge_misaligned",
+        "segments": [],
+        "status": "quarantined",
+        "token_id": "Q3",
+        "trailing_ns": null,
+        "width": null,
+        "width_table_version": null
+      },
+      {
+        "face_value": null,
+        "frame_event_ids": [
+          "QU-A-L",
+          "QU-A-T",
+          "QU-B-L",
+          "QU-B-T"
+        ],
+        "gate": "rear",
+        "leading_ns": 84,
+        "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+        "reason": "unclassified",
+        "segments": [
+          {
+            "calibration_mark": "m2",
+            "duration_ns": 18,
+            "end_ns": 102,
+            "speed": "1",
+            "start_ns": 84
+          }
+        ],
+        "status": "quarantined",
+        "token_id": "QU",
+        "trailing_ns": 102,
+        "width": "18",
+        "width_table_version": null
+      }
+    ],
+    "calibrations": [
+      {
+        "front_event_id": "m0-A",
+        "mark_id": "m0",
+        "rear_event_id": "m0-B",
+        "speed": "1/3",
+        "start_ns": 42,
+        "transit_ns": 3,
+        "ttl_end_ns": null
+      },
+      {
+        "front_event_id": "m1-A",
+        "mark_id": "m1",
+        "rear_event_id": "m1-B",
+        "speed": "1/3",
+        "start_ns": 63,
+        "transit_ns": 3,
+        "ttl_end_ns": null
+      },
+      {
+        "front_event_id": "m2-A",
+        "mark_id": "m2",
+        "rear_event_id": "m2-B",
+        "speed": "1",
+        "start_ns": 69,
+        "transit_ns": 1,
+        "ttl_end_ns": null
+      }
+    ],
+    "frames_sha256": "cb26ba148178799bb6e886b70e7b5da093aacec4aa5eddbc60add06ac1045a15",
+    "late_frames": [],
+    "mark_conflicts": [
+      {
+        "frame_event_ids": [
+          "mX-B1",
+          "mX-B2"
+        ],
+        "mark_id": "mX",
+        "reason": "duplicate_gate_observation"
+      }
+    ],
+    "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+    "rejected_frames": [],
+    "valid_edge": "leading",
+    "valid_gate": "rear"
+  },
+  "threefen_line": {
+    "admissions": [
+      {
+        "face_value": 1,
+        "frame_event_ids": [
+          "L1-A-L",
+          "L1-A-T",
+          "L1-B-L",
+          "L1-B-T"
+        ],
+        "gate": "rear",
+        "leading_ns": 51,
+        "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+        "reason": null,
+        "segments": [
+          {
+            "calibration_mark": "m0",
+            "duration_ns": 6,
+            "end_ns": 57,
+            "speed": "1/3",
+            "start_ns": 51
+          }
+        ],
+        "status": "admitted",
+        "token_id": "L1",
+        "trailing_ns": 57,
+        "width": "2",
+        "width_table_version": "width-v1"
+      },
+      {
+        "face_value": 1,
+        "frame_event_ids": [
+          "L2-A-L",
+          "L2-A-T",
+          "L2-B-L",
+          "L2-B-T"
+        ],
+        "gate": "rear",
+        "leading_ns": 57,
+        "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+        "reason": null,
+        "segments": [
+          {
+            "calibration_mark": "m0",
+            "duration_ns": 6,
+            "end_ns": 63,
+            "speed": "1/3",
+            "start_ns": 57
+          }
+        ],
+        "status": "admitted",
+        "token_id": "L2",
+        "trailing_ns": 63,
+        "width": "2",
+        "width_table_version": "width-v1"
+      },
+      {
+        "face_value": 3,
+        "frame_event_ids": [
+          "T1-A-L",
+          "T1-A-T",
+          "T1-B-L",
+          "T1-B-T"
+        ],
+        "gate": "rear",
+        "leading_ns": 66,
+        "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+        "reason": null,
+        "segments": [
+          {
+            "calibration_mark": "m1",
+            "duration_ns": 3,
+            "end_ns": 69,
+            "speed": "1/3",
+            "start_ns": 66
+          },
+          {
+            "calibration_mark": "m2",
+            "duration_ns": 3,
+            "end_ns": 72,
+            "speed": "1",
+            "start_ns": 69
+          }
+        ],
+        "status": "admitted",
+        "token_id": "T1",
+        "trailing_ns": 72,
+        "width": "4",
+        "width_table_version": "width-v1"
+      }
+    ],
+    "calibrations": [
+      {
+        "front_event_id": "m0-A",
+        "mark_id": "m0",
+        "rear_event_id": "m0-B",
+        "speed": "1/3",
+        "start_ns": 42,
+        "transit_ns": 3,
+        "ttl_end_ns": null
+      },
+      {
+        "front_event_id": "m1-A",
+        "mark_id": "m1",
+        "rear_event_id": "m1-B",
+        "speed": "1/3",
+        "start_ns": 63,
+        "transit_ns": 3,
+        "ttl_end_ns": null
+      },
+      {
+        "front_event_id": "m2-A",
+        "mark_id": "m2",
+        "rear_event_id": "m2-B",
+        "speed": "1",
+        "start_ns": 69,
+        "transit_ns": 1,
+        "ttl_end_ns": null
+      }
+    ],
+    "frames_sha256": "4bf4ef69d1390cdebc72408f28aee944f734b55dc81cbd9e6b11bb8f936dd49a",
+    "late_frames": [],
+    "mark_conflicts": [],
+    "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+    "rejected_frames": [],
+    "valid_edge": "leading",
+    "valid_gate": "rear"
+  },
+  "width_table_revision": [
+    {
+      "token_id": "L1",
+      "v1_face_value": 1,
+      "v2_band": [
+        "2",
+        "4"
+      ],
+      "v2_face_value": 2,
+      "width": "2"
+    },
+    {
+      "token_id": "L2",
+      "v1_face_value": 1,
+      "v2_band": [
+        "2",
+        "4"
+      ],
+      "v2_face_value": 2,
+      "width": "2"
+    },
+    {
+      "token_id": "T1",
+      "v1_face_value": 3,
+      "v2_band": [
+        "4",
+        "6"
+      ],
+      "v2_face_value": 3,
+      "width": "4"
+    },
+    {
+      "token_id": "L1",
+      "v1_face_value": 1,
+      "v2_band": [
+        "2",
+        "4"
+      ],
+      "v2_face_value": 2,
+      "width": "2"
+    },
+    {
+      "token_id": "L2",
+      "v1_face_value": 1,
+      "v2_band": [
+        "2",
+        "4"
+      ],
+      "v2_face_value": 2,
+      "width": "2"
+    },
+    {
+      "token_id": "T2",
+      "v1_face_value": 1,
+      "v2_band": [
+        "2",
+        "4"
+      ],
+      "v2_face_value": 2,
+      "width": "2"
+    }
+  ]
+}

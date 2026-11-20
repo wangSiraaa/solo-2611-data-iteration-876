@@ -1,0 +1,239 @@
+{
+  "onefen_scenario": {
+    "baseline_two_amount2_orders": {
+      "bags": [],
+      "blocker": {
+        "code": "batch_contention",
+        "detail": {
+          "contended_values": {
+            "1": {
+              "stock": 3,
+              "upper_bound_demand": 4
+            }
+          },
+          "orders": [
+            "base-A",
+            "base-B"
+          ],
+          "stock": {
+            "1": 3
+          }
+        },
+        "message": "each bag is fillable alone but the orders cannot be filled together from one stock",
+        "order_id": null
+      },
+      "feasible": false,
+      "stock_after": {
+        "1": 3
+      },
+      "stock_before": {
+        "1": 3
+      }
+    },
+    "label": "onefen",
+    "orders": [
+      {
+        "accepted_values": [
+          1,
+          3
+        ],
+        "amount": 3,
+        "max_tokens": 2,
+        "order_id": "bag-A"
+      },
+      {
+        "accepted_values": [
+          1,
+          2
+        ],
+        "amount": 2,
+        "max_tokens": 2,
+        "order_id": "bag-B"
+      }
+    ],
+    "simultaneous_plan": {
+      "bags": [],
+      "blocker": {
+        "code": "denomination_unreachable",
+        "detail": {
+          "accepted_values": [
+            1,
+            3
+          ],
+          "in_stock_values": [
+            1
+          ],
+          "max_tokens": 2
+        },
+        "message": "amount 3 cannot be made from [1, 3] within 2 token(s)",
+        "order_id": "bag-A"
+      },
+      "feasible": false,
+      "stock_after": {
+        "1": 3
+      },
+      "stock_before": {
+        "1": 3
+      }
+    },
+    "stock_counts": {
+      "1": 3
+    },
+    "tokens_admitted": 3
+  },
+  "orders": [
+    {
+      "accepted_values": [
+        1,
+        3
+      ],
+      "amount": 3,
+      "max_tokens": 2,
+      "order_id": "bag-A"
+    },
+    {
+      "accepted_values": [
+        1,
+        2
+      ],
+      "amount": 2,
+      "max_tokens": 2,
+      "order_id": "bag-B"
+    }
+  ],
+  "threefen_scenario": {
+    "baseline_two_amount2_orders": {
+      "bags": [],
+      "blocker": {
+        "code": "batch_contention",
+        "detail": {
+          "contended_values": {
+            "1": {
+              "stock": 2,
+              "upper_bound_demand": 4
+            }
+          },
+          "orders": [
+            "base-A",
+            "base-B"
+          ],
+          "stock": {
+            "1": 2,
+            "3": 1
+          }
+        },
+        "message": "each bag is fillable alone but the orders cannot be filled together from one stock",
+        "order_id": null
+      },
+      "feasible": false,
+      "stock_after": {
+        "1": 2,
+        "3": 1
+      },
+      "stock_before": {
+        "1": 2,
+        "3": 1
+      }
+    },
+    "confirmed_batch": "batch-threefen",
+    "label": "threefen",
+    "manifest_file": "bag_manifest_threefen.json",
+    "orders": [
+      {
+        "accepted_values": [
+          1,
+          3
+        ],
+        "amount": 3,
+        "max_tokens": 2,
+        "order_id": "bag-A"
+      },
+      {
+        "accepted_values": [
+          1,
+          2
+        ],
+        "amount": 2,
+        "max_tokens": 2,
+        "order_id": "bag-B"
+      }
+    ],
+    "simultaneous_plan": {
+      "bags": [
+        {
+          "amount": 3,
+          "lines": [
+            {
+              "face_value": 3,
+              "frame_event_ids": [
+                "T1-A-L",
+                "T1-A-T",
+                "T1-B-L",
+                "T1-B-T"
+              ],
+              "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+              "serial": "T1",
+              "width": "4",
+              "width_table_version": "width-v1"
+            }
+          ],
+          "max_tokens": 2,
+          "order_id": "bag-A",
+          "token_count": 1,
+          "total": 3
+        },
+        {
+          "amount": 2,
+          "lines": [
+            {
+              "face_value": 1,
+              "frame_event_ids": [
+                "L1-A-L",
+                "L1-A-T",
+                "L1-B-L",
+                "L1-B-T"
+              ],
+              "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+              "serial": "L1",
+              "width": "2",
+              "width_table_version": "width-v1"
+            },
+            {
+              "face_value": 1,
+              "frame_event_ids": [
+                "L2-A-L",
+                "L2-A-T",
+                "L2-B-L",
+                "L2-B-T"
+              ],
+              "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+              "serial": "L2",
+              "width": "2",
+              "width_table_version": "width-v1"
+            }
+          ],
+          "max_tokens": 2,
+          "order_id": "bag-B",
+          "token_count": 2,
+          "total": 2
+        }
+      ],
+      "blocker": null,
+      "feasible": true,
+      "stock_after": {
+        "1": 0,
+        "3": 0
+      },
+      "stock_before": {
+        "1": 2,
+        "3": 1
+      }
+    },
+    "stock_after_confirm": {},
+    "stock_counts": {
+      "1": 2,
+      "3": 1
+    },
+    "tokens_admitted": 3
+  }
+}

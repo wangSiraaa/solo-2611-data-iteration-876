@@ -1,0 +1,45 @@
+{
+ "content": {
+  "calibration_ttl_ns": null,
+  "gate_spacing": "1",
+  "gates": [
+   {
+    "name": "front",
+    "role": "front",
+    "spacing_from_front": "0"
+   },
+   {
+    "name": "rear",
+    "role": "rear",
+    "spacing_from_front": "1"
+   }
+  ],
+  "protocol": "bitcatalog-gauging/1",
+  "selector_map": {
+   "ruler": 0,
+   "selfcheck": 2,
+   "token": 1
+  },
+  "valid_edge": "leading",
+  "valid_gate": "rear",
+  "width_table": {
+   "bands": [
+    {
+     "face_value": 1,
+     "hi": "3",
+     "lo": "1"
+    },
+    {
+     "face_value": 3,
+     "hi": "5",
+     "lo": "3"
+    }
+   ],
+   "version": "width-v1"
+  }
+ },
+ "content_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+ "fingerprint": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+ "format": "bitcatalog-gauging-product/1",
+ "protocol": "bitcatalog-gauging/1"
+}

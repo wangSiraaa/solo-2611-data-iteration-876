@@ -1,0 +1,245 @@
+{
+  "admissions": [
+    {
+      "frame_event_ids": [
+        "L1-A-L",
+        "L1-A-T",
+        "L1-B-L",
+        "L1-B-T"
+      ],
+      "frames_sha256": "4bf4ef69d1390cdebc72408f28aee944f734b55dc81cbd9e6b11bb8f936dd49a",
+      "line": "threefen",
+      "ok": true,
+      "reason": null,
+      "recomputed_face_value": 1,
+      "recomputed_width": "2",
+      "segments": [
+        {
+          "calibration_mark": "m0",
+          "duration_ns": 6,
+          "end_ns": 57,
+          "speed": "1/3",
+          "start_ns": 51
+        }
+      ],
+      "status": "admitted",
+      "stored_face_value": 1,
+      "stored_width": "2",
+      "token_id": "L1"
+    },
+    {
+      "frame_event_ids": [
+        "L2-A-L",
+        "L2-A-T",
+        "L2-B-L",
+        "L2-B-T"
+      ],
+      "frames_sha256": "4bf4ef69d1390cdebc72408f28aee944f734b55dc81cbd9e6b11bb8f936dd49a",
+      "line": "threefen",
+      "ok": true,
+      "reason": null,
+      "recomputed_face_value": 1,
+      "recomputed_width": "2",
+      "segments": [
+        {
+          "calibration_mark": "m0",
+          "duration_ns": 6,
+          "end_ns": 63,
+          "speed": "1/3",
+          "start_ns": 57
+        }
+      ],
+      "status": "admitted",
+      "stored_face_value": 1,
+      "stored_width": "2",
+      "token_id": "L2"
+    },
+    {
+      "frame_event_ids": [
+        "T1-A-L",
+        "T1-A-T",
+        "T1-B-L",
+        "T1-B-T"
+      ],
+      "frames_sha256": "4bf4ef69d1390cdebc72408f28aee944f734b55dc81cbd9e6b11bb8f936dd49a",
+      "line": "threefen",
+      "ok": true,
+      "reason": null,
+      "recomputed_face_value": 3,
+      "recomputed_width": "4",
+      "segments": [
+        {
+          "calibration_mark": "m1",
+          "duration_ns": 3,
+          "end_ns": 69,
+          "speed": "1/3",
+          "start_ns": 66
+        },
+        {
+          "calibration_mark": "m2",
+          "duration_ns": 3,
+          "end_ns": 72,
+          "speed": "1",
+          "start_ns": 69
+        }
+      ],
+      "status": "admitted",
+      "stored_face_value": 3,
+      "stored_width": "4",
+      "token_id": "T1"
+    },
+    {
+      "frame_event_ids": [
+        "L1-A-L",
+        "L1-A-T",
+        "L1-B-L",
+        "L1-B-T"
+      ],
+      "frames_sha256": "e65f845ea435a46fc17bc4c244299ce9e5f21588e8edf25618d2e478bf43180d",
+      "line": "onefen",
+      "ok": true,
+      "reason": null,
+      "recomputed_face_value": 1,
+      "recomputed_width": "2",
+      "segments": [
+        {
+          "calibration_mark": "m0",
+          "duration_ns": 6,
+          "end_ns": 57,
+          "speed": "1/3",
+          "start_ns": 51
+        }
+      ],
+      "status": "admitted",
+      "stored_face_value": 1,
+      "stored_width": "2",
+      "token_id": "L1"
+    },
+    {
+      "frame_event_ids": [
+        "L2-A-L",
+        "L2-A-T",
+        "L2-B-L",
+        "L2-B-T"
+      ],
+      "frames_sha256": "e65f845ea435a46fc17bc4c244299ce9e5f21588e8edf25618d2e478bf43180d",
+      "line": "onefen",
+      "ok": true,
+      "reason": null,
+      "recomputed_face_value": 1,
+      "recomputed_width": "2",
+      "segments": [
+        {
+          "calibration_mark": "m0",
+          "duration_ns": 6,
+          "end_ns": 63,
+          "speed": "1/3",
+          "start_ns": 57
+        }
+      ],
+      "status": "admitted",
+      "stored_face_value": 1,
+      "stored_width": "2",
+      "token_id": "L2"
+    },
+    {
+      "frame_event_ids": [
+        "T2-A-L",
+        "T2-A-T",
+        "T2-B-L",
+        "T2-B-T"
+      ],
+      "frames_sha256": "e65f845ea435a46fc17bc4c244299ce9e5f21588e8edf25618d2e478bf43180d",
+      "line": "onefen",
+      "ok": true,
+      "reason": null,
+      "recomputed_face_value": 1,
+      "recomputed_width": "2",
+      "segments": [
+        {
+          "calibration_mark": "m1",
+          "duration_ns": 6,
+          "end_ns": 72,
+          "speed": "1/3",
+          "start_ns": 66
+        }
+      ],
+      "status": "admitted",
+      "stored_face_value": 1,
+      "stored_width": "2",
+      "token_id": "T2"
+    }
+  ],
+  "manifests": [
+    {
+      "bag_batch_id": "batch-threefen",
+      "bags_checked": 2,
+      "label": "threefen",
+      "ok": true,
+      "problems": [],
+      "serials_checked": 3
+    }
+  ],
+  "revision": [
+    {
+      "token_id": "L1",
+      "v1_face_value": 1,
+      "v2_band": [
+        "2",
+        "4"
+      ],
+      "v2_face_value": 2,
+      "width": "2"
+    },
+    {
+      "token_id": "L2",
+      "v1_face_value": 1,
+      "v2_band": [
+        "2",
+        "4"
+      ],
+      "v2_face_value": 2,
+      "width": "2"
+    },
+    {
+      "token_id": "T1",
+      "v1_face_value": 3,
+      "v2_band": [
+        "4",
+        "6"
+      ],
+      "v2_face_value": 3,
+      "width": "4"
+    },
+    {
+      "token_id": "L1",
+      "v1_face_value": 1,
+      "v2_band": [
+        "2",
+        "4"
+      ],
+      "v2_face_value": 2,
+      "width": "2"
+    },
+    {
+      "token_id": "L2",
+      "v1_face_value": 1,
+      "v2_band": [
+        "2",
+        "4"
+      ],
+      "v2_face_value": 2,
+      "width": "2"
+    },
+    {
+      "token_id": "T2",
+      "v1_face_value": 1,
+      "v2_band": [
+        "2",
+        "4"
+      ],
+      "v2_face_value": 2,
+      "width": "2"
+    }
+  ]
+}

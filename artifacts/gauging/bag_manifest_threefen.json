@@ -1,0 +1,77 @@
+{
+ "bag_batch_id": "batch-threefen",
+ "content_sha256": "202ac6b5d404cbc4814239ba603579406123e8eab616499c049b5240c323b4f0",
+ "created_at": "2026-11-20T08:30:00Z",
+ "format": "bitcatalog-bag-manifest/1",
+ "plan": {
+  "bags": [
+   {
+    "amount": 3,
+    "lines": [
+     {
+      "face_value": 3,
+      "frame_event_ids": [
+       "T1-A-L",
+       "T1-A-T",
+       "T1-B-L",
+       "T1-B-T"
+      ],
+      "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+      "serial": "T1",
+      "width": "4",
+      "width_table_version": "width-v1"
+     }
+    ],
+    "max_tokens": 2,
+    "order_id": "bag-A",
+    "token_count": 1,
+    "total": 3
+   },
+   {
+    "amount": 2,
+    "lines": [
+     {
+      "face_value": 1,
+      "frame_event_ids": [
+       "L1-A-L",
+       "L1-A-T",
+       "L1-B-L",
+       "L1-B-T"
+      ],
+      "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+      "serial": "L1",
+      "width": "2",
+      "width_table_version": "width-v1"
+     },
+     {
+      "face_value": 1,
+      "frame_event_ids": [
+       "L2-A-L",
+       "L2-A-T",
+       "L2-B-L",
+       "L2-B-T"
+      ],
+      "product_sha256": "b09c08c4125198589b091951f0bebb35bacfa93cddc7c21ef62891f4c6b6bfb2",
+      "serial": "L2",
+      "width": "2",
+      "width_table_version": "width-v1"
+     }
+    ],
+    "max_tokens": 2,
+    "order_id": "bag-B",
+    "token_count": 2,
+    "total": 2
+   }
+  ],
+  "blocker": null,
+  "feasible": true,
+  "stock_after": {
+   "1": 0,
+   "3": 0
+  },
+  "stock_before": {
+   "1": 2,
+   "3": 1
+  }
+ }
+}
